@@ -8,7 +8,25 @@ public class SpringbootApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootApplication.class, args);
+
+
+     // fixing bug-121
+	 public String greet(){
+
+            return "Good Morning";
+
+	 }
+
+
+
 	}
+
+
+
+
+
+
+
 
 
 
@@ -18,5 +36,6 @@ public class SpringbootApplication {
 
 		return "Welcome to JRTP";
 	}
+
 
 }
