@@ -10,4 +10,13 @@ public class SpringbootApplication {
 		SpringApplication.run(SpringbootApplication.class, args);
 	}
 
+
+
+	// fixing bug 122
+
+	public String welocme(){
+
+		return "Welcome to JRTP";
+	}
+
 }
